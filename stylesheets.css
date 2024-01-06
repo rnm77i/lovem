@@ -1,0 +1,38 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 Jan 2024, 8:06:12 PM
+    Author     : raneemaldahan
+*/
+
+*{padding:0; margin: 0;}
+.container{height:100vh;
+width:100vw; 
+color: #444;
+background:#ffe7e3 ;
+text-align: center;}
+h2{font-size: 72px; margin-bottom:30px; }
+.love , .yes , .no{
+   padding-top: 25%;
+}
+.love span{color:#fc9786; }
+.love a {text-decoration: none;
+background: #eee;
+padding: 5px;
+margin: 5px 10px;
+border: 3px solid #ddd;
+border-radius: 10px;}
+#no{color:red;}
+#yes{color:green;}
+img{height:50px; width: 50px; 
+animation: heart 4s linear infinite;}
+
+@keyframes heart{
+    
+    
+    0%{transform: scale(.5); 
+    50%{transform: scale(1.5); 
+    100%{transform: scale(.5); }
+}
